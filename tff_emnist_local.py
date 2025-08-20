@@ -1,3 +1,36 @@
+"""
+tff_emnist_local.py
+
+Federated Learning on EMNIST using TensorFlow Federated (TFF)
+----------------------------------------------------------------
+This script demonstrates a simple federated learning workflow on a subset of the EMNIST dataset.
+You can configure the number of training rounds and clients per round via command-line arguments.
+
+Main steps:
+1. Load and preprocess EMNIST data for federated learning.
+2. Define a simple Keras CNN model for digit classification.
+3. Wrap the model for TFF and set up federated averaging and evaluation.
+4. Run federated training for the specified number of rounds.
+5. Evaluate and log metrics for each round, saving results to a CSV file.
+
+Usage example:
+    python tff_emnist_local.py --rounds 5 --clients-per-round 5
+"""
+# -----------------------
+# 1) Imports and argument parsing
+# -----------------------
+# -----------------------
+# 2) Data loading and preprocessing
+# -----------------------
+# -----------------------
+# 3) Model definition
+# -----------------------
+# -----------------------
+# 4) Federated learning setup (legacy TFF API)
+# -----------------------
+# -----------------------
+# 5) Training loop and metrics logging
+# -----------------------
 # Suppress TensorFlow and asyncio warnings for cleaner output
 import os
 import warnings
