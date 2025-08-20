@@ -1,4 +1,4 @@
-# Federated Learning on EMNIST with TensorFlow Federated
+# Federated Learning on EMNIST with TensorFlow Federated Framework
 
 
 This repository contains code and resources for experimenting with federated learning using the EMNIST dataset and TensorFlow Federated (TFF). It is designed for students, researchers, and practitioners interested in privacy-preserving machine learning and distributed training. The scripts demonstrate how to set up, train, and evaluate a simple federated model on handwritten digit data, with clear instructions for running and analysing results.
