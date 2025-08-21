@@ -1,9 +1,11 @@
 """
 tff_emnist_local.py
 
-Federated Learning on EMNIST using TensorFlow Federated (TFF)
-----------------------------------------------------------------
+Federated Learning on EMNIST using TensorFlow Federated (TFF) Framework
+-----------------------------------------------------------------------
 This script demonstrates a simple federated learning workflow on a subset of the EMNIST dataset.
+This script was created as an initial simulation benchmark of Federated Learning Frameworks.
+
 You can configure the number of training rounds and clients per round via command-line arguments.
 
 Main steps:
